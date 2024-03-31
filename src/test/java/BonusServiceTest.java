@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class BonusServiceTest {
 
-    @DisplayName("Зарегистрирован/лимит не превышен")
+    @DisplayName("Зарегистрирован / лимит не превышен")
     @Test
     void shouldCalculateForRegisteredAndUnderLimit() {
         BonusService service = new BonusService();
